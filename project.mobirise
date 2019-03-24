@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Resume",
-    "currentPage": "index.html",
+    "currentPage": "page2.html",
     "theme": {
       "name": "resumeamp",
       "title": "ResumeAMP",
@@ -3280,96 +3280,6 @@
           "_anchor": "features4-1i",
           "_isUserblock": true,
           "_cid": "rhlmeTXAYF",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 5px)",
-            "padding-bottom": "(@paddingBottom * 5px)",
-            "background-color": "@BgColor",
-            ".mbr-row": {
-              "margin": "0"
-            },
-            ".container": {
-              "padding-left": "10px",
-              "padding-right": "10px"
-            },
-            ".card": {
-              "position": "relative",
-              "display": "flex",
-              "-ms-flex-direction": "column",
-              "-webkit-flex-direction": "column",
-              "flex-direction": "column",
-              "min-width": "0",
-              "word-wrap": "break-word",
-              "background-clip": "border-box",
-              "border-radius": "0",
-              "width": "100%",
-              "min-height": "1px",
-              "padding-left": "5px",
-              "padding-right": "5px"
-            },
-            ".card-wrapper": {
-              "background-color": "@cardBg"
-            },
-            ".card-title": {
-              "margin-bottom": "20px"
-            },
-            ".card-box": {
-              "padding": "40px 20px"
-            },
-            "amp-img": {
-              "width": "100%"
-            },
-            ".card-icon": {
-              "margin-top": "20px",
-              "margin-bottom": "20px"
-            },
-            ".amp-iconfont": {
-              "padding": "1rem",
-              "background-color": "@iconsBg",
-              "color": "@iconsColor",
-              "border-radius": "50%",
-              "width": "calc(~\"@{iconsSize}rem + 2rem\")",
-              "height": "calc(~\"@{iconsSize}rem + 2rem\")",
-              "font-size": "~\"@{iconsSize}rem\""
-            },
-            ".mbr-section-title": {
-              "& when (@showUnderline)": {
-                "position": "relative",
-                "margin-bottom": "70px",
-                "&:after": {
-                  "position": "absolute",
-                  "left": "50%",
-                  "margin-left": "-1.5rem",
-                  "bottom": "-35px",
-                  "content": "\"\"",
-                  "width": "3rem",
-                  "height": "2px",
-                  "background-color": "@underlineColor",
-                  "transition": "width .3s"
-                }
-              }
-            },
-            "@media (max-width: 991px)": {
-              ".first-row-card": {
-                "margin-bottom": "10px"
-              }
-            },
-            "@media (max-width: 767px)": {
-              ".card:not(.last-child)": {
-                "margin-bottom": "10px"
-              }
-            }
-          },
-          "_name": "features4",
-          "_customHTML": "<section class=\"features4 mbr-section\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"20\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"20\" step=\"1\" value=\"1\">\n\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected=\"\">4</option>\n        </select>\n        <input type=\"color\" title=\"Card BG Color\" name=\"cardBg\" value=\"#dee6f0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" condition=\"showTitle\">\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#232323\" condition=\"showUnderline &amp;&amp; showTitle\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <input type=\"color\" title=\"Icons BG Color\" name=\"iconsBg\" value=\"#ffffff\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Icons Text Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"range\" inline=\"\" title=\"Icons Size\" name=\"iconsSize\" min=\"2\" max=\"5\" step=\"0.1\" value=\"3.6\" condition=\"showIcons\">\n        \n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"BgColor\" value=\"#f0ede7\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center mbr-black\">\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3,'mbr-col-lg-3': cardsAmount == 4,'last-child': cardsAmount == 1, 'first-row-card': cardsAmount > 2}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/mbr-3-654x436.jpg\" layout=\"responsive\" height=\"218\" width=\"327\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=30000&amp;item_name=Custom+Item&amp;currency_code=USD&amp;add=1\" target=\"_blank\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/mbr-3-654x436.jpg\" alt=\"Mobirise\" title=\"\"></a>\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box\">\n                        <h3 class=\"mbr-section-title card-title mbr-fonts-style align-center mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Mobile Applications</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                            Publishers and advertisers can decide how to present their content and what technology vendors to use, all while maintaining and improving key performance indicators.\n                        </p>\n                        <div class=\"card-icon align-center\" mbr-if=\"showIcons\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont fa-map-marker fa\"></span>\n                        </div>\n                        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-white\" href=\"page1.html\" data-app-placeholder=\"Type Text\">\n                                Learn more\n                            </a></div>\n                    </div>\n                </div>\n            </div>\n            \n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3,'mbr-col-lg-3': cardsAmount == 4,'last-child': cardsAmount == 2, 'first-row-card': cardsAmount > 2}\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/mbr-5-654x818.jpg\" layout=\"responsive\" height=\"219\" width=\"327.24713958810065\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=100&amp;item_name=E-Portfolio&amp;currency_code=USD&amp;add=1\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/mbr-5-654x818.jpg\" alt=\"Mobirise\" title=\"\"></a>\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box\">\n                        <h3 class=\"mbr-section-title card-title mbr-fonts-style align-center mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">e-Portfolio</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                            Publishers and advertisers can decide how to present their content and what technology vendors to use, all while maintaining and improving key performance indicators.\n                        </p>\n                        <div class=\"card-icon align-center\" mbr-if=\"showIcons\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont fa-map-marker fa\"></span>\n                        </div>\n                        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-white\" href=\"page1.html\" data-app-placeholder=\"Type Text\">\n                                Learn more\n                            </a></div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3,'mbr-col-lg-3': cardsAmount == 4,'last-child': cardsAmount == 3}\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/mbr-654x368.jpg\" layout=\"responsive\" height=\"184\" width=\"327\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=30000.0&amp;item_name=Game&amp;currency_code=USD&amp;add=1\" target=\"_blank\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/mbr-654x368.jpg\" alt=\"Mobirise\" title=\"\"></a>\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box\">\n                        <h3 class=\"mbr-section-title card-title mbr-fonts-style align-center mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">Game Development</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                            Publishers and advertisers can decide how to present their content and what technology vendors to use, all while maintaining and improving key performance indicators.\n                        </p>\n                        <div class=\"card-icon align-center\" mbr-if=\"showIcons\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont fa-map-marker fa\"></span>\n                        </div>\n                        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-white\" href=\"page1.html\" data-app-placeholder=\"Type Text\">\n                                Learn more\n                            </a></div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3, 'mbr-col-lg-3': cardsAmount == 4, 'last-child': cardsAmount == 4}\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/mbr-4-654x491.jpg\" layout=\"responsive\" height=\"184\" width=\"326.5\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_xclick-subscriptions&amp;item_name=Custom+Blog&amp;item_number=&amp;currency_code=USD&amp;a3=150.00&amp;p3=1&amp;t3=Y&amp;src=1\" target=\"_blank\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/mbr-4-654x491.jpg\" alt=\"Mobirise\" title=\"\"></a>\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box\">\n                        <h3 class=\"mbr-section-title card-title mbr-fonts-style align-center mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                            Blogs</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                            Publishers and advertisers can decide how to present their content and what technology vendors to use, all while maintaining and improving key performance indicators.\n                        </p>\n                        <div class=\"card-icon align-center\" mbr-if=\"showIcons\">\n                            <span mbr-icon=\"\" class=\"amp-iconfont fa-map-marker fa\"></span>\n                        </div>\n                        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-white\" href=\"page1.html\" data-app-placeholder=\"Type Text\">\n                                Learn more\n                            </a></div>\n                    </div>\n                </div>\n            </div>        \n        </div>\n    </div>\n</section>",
-          "_anchor": "features4-1e",
-          "_isUserblock": true,
-          "_cid": "rhllvkiG3k",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
